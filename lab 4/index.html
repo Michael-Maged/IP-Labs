@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pro To-Do List</h1>
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Enter a new task" />
+        <button id="addTaskBtn">➕</button>
+      </div>
+      <div class="filter-group">
+        <button id="filterAll" class="filter-btn">All</button>
+        <button id="filterCompleted" class="filter-btn">Completed</button>
+        <button id="filterIncomplete" class="filter-btn">Incomplete</button>
+        <button id="sortAlpha" class="sort-btn">Sort A-Z</button>
+        <button id="sortTime" class="sort-btn">Sort by Time</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
